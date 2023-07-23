@@ -1,0 +1,44 @@
+.titulo{
+	text-align: center;
+	color: rgb(218, 221, 242);
+}
+
+body{
+	background: rgb( 50, 76, 138 );
+
+}
+#home{
+	position: absolute;
+	margin-left: 50%;
+	transform: translate(-50%);
+	
+}
+
+#sim{
+	position: absolute;
+	color:rgb(218, 221, 242);
+	font-family: fantasy;
+	font-size: 15pt;
+	background: rgb(70, 207, 72);
+	padding: 30px 50px;
+	margin: 10px 10px;
+	border-radius: 30px;
+	border-style: none;
+	cursor: pointer;
+}
+#nao{
+	position: absolute;
+	color:rgb(218, 221, 242);
+	font-family: fantasy;
+	font-size: 15pt;
+	background: rgb(207, 70, 70);
+	padding: 30px 50px;
+	margin: 10px 10px 0px 160px;
+	border-radius: 30px;
+	border-style: none;
+	cursor: pointer;
+}
+
+#imagem {
+	border-radius: 20px;
+}
